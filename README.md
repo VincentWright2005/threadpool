@@ -23,7 +23,7 @@ g++ -std=c++17 -02 -pthread example.cpp -o example
 -C++17 or later
 -Compiler with thread support
 
-##Implementaion Details
+## Implementaion Details
 Built using:
     -std::thread for worker threads
     -std::mutex and std::condition_variable for synchronization
